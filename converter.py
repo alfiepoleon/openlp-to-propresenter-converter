@@ -24,8 +24,8 @@ def convert_xml_to_txt(xml_content):
     return text
 
 
-input_folder = '/Users/alfie/Downloads/ProPresenter/OpenLP backups/Songs'
-output_folder = '/Users/alfie/Downloads/ProPresenter/OpenLP backups/songs_txt'
+input_folder = '<input_folder>'
+output_folder = '<output_folder>'
 
 if not os.path.exists(output_folder):
     os.makedirs(output_folder)
